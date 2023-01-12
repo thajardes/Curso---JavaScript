@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Primeiro Programa</title>
+  <style>
+    body {
+      background-color: rgba(105, 105, 173);
+      color: white;
+      /*Comentário em CSS*/
+      font: normal 20pt Arial;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Olá, mundo!</h1>
+  <!--Isso é um comentário em HTML-->
+  <p> Já me livrei da maldição.</p>
+  <script>
+    /* var n1 = Number.parseInt(window.prompt('Digite um número'))
+     var n2 = Number.parseInt(window.prompt('Digite outro número'))
+     var s = n1 + n2
+     window.alert('A soma dos dois números é: ' + s)
+     //(number + numner) para adição
+     //(string + string) para concatenação
+     // o Number.parseInt ou apenas parseInt converte uma string para um numero inteiro
+     // o number.parsefloat converte uma string para um numero real */
+
+    var n1 = Number(window.prompt('Digite um número:'))
+    var n2 = Number(window.prompt('Digite outro número:'))
+    var s = n1 + n2
+    window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // isso é o template string
+    //o Number converte automaticamente a sring para numero. Entretanto, se o programa pedir que seja aceito apenas numeros inteiros ou reais, é melhor usar parseInt ou parseFLoat.
+  </script>
+</body>
+
+</html>
